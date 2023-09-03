@@ -4,7 +4,7 @@ int main(int argc, char *argv[])
 {
     if (argc == 2)
     {
-        std::cout << "******* Server *******" << std::endl;
+        std::cout << "******* Client *******" << std::endl;
         int socket_s = socket(AF_UNIX, SOCK_STREAM, 0);
         if (socket_s == -1)
         {
